@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             ViewGone(frag_view)
-        }, 2000)
+        }, 3000)
 
         captureIV = findViewById(R.id.iv_camera)
         val btn_camera: Button = findViewById(R.id.btn_camera)
